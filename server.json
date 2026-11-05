@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.voxisim/voxisim-mcp",
+  "title": "Voxisim",
+  "description": "Virtual phone numbers and SMS verification codes for AI agents: 800+ services, 200+ countries.",
+  "websiteUrl": "https://voxisim.com/docs/mcp.md",
+  "repository": {
+    "url": "https://github.com/voxisim/voxisim-mcp",
+    "source": "github",
+    "id": "1351371860"
+  },
+  "version": "1.0.0",
+  "icons": [
+    { "src": "https://voxisim.com/images/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
+    { "src": "https://voxisim.com/images/favicon-96x96.png", "mimeType": "image/png", "sizes": ["96x96"] },
+    { "src": "https://voxisim.com/images/web-app-manifest-192x192.png", "mimeType": "image/png", "sizes": ["192x192"] },
+    { "src": "https://voxisim.com/images/web-app-manifest-512x512.png", "mimeType": "image/png", "sizes": ["512x512"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.voxisim.com/mcp" }
+  ]
+}
